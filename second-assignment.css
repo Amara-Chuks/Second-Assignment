@@ -1,0 +1,497 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', 'sans-serif';
+    line-height: 1.5;
+}
+
+body {
+    margin-top: 60px;
+    height: 100vh;
+    display: grid;
+    background-image: url(https://bit.ly/3yqjljj);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    font-size: 18px;
+}
+
+p {
+    color: #717184;
+    font-size: 20px;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 150px;
+    height: 400px;
+}
+
+.head-image{
+    width: 150px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 125px;
+    width: 650px;
+}
+
+.header-title h1{
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+button{
+    margin: 0 10px;
+    padding: 15px 50px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+body > section > form > button:nth-child(1){
+    background-color: #24c7ad;
+    box-shadow: 0px 3px 0px hsl(164deg 17% 46%);
+}
+
+body > section > form > button:nth-child(2){
+    background-color: #0083ff;
+    box-shadow: 0px 3px 0px hsl(216deg 65% 59%);
+}
+
+.main-section{
+    display: grid;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.main-section-title{
+    height: 200px;
+    margin: auto;
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.main-section-title h2{
+    width: 640px;
+    margin: auto;
+}
+
+.main-section-title p{
+    width: auto;
+    margin: auto;
+    padding: 10px 0;
+}
+
+
+.main-section-image{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.computer-image{
+    width: 80%;
+    position: unset;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
+
+.computer-image-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+    margin: auto 0;
+    width: 100%;
+}
+
+.computer-description{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+.computer-description h3{
+    margin-bottom: 15px;
+}
+
+.computer-description p{
+    width: auto;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.flex-margin{
+    width: 680px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.flex-margin p{
+    width: auto;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.monitor img{
+    width: 85%;
+}
+
+.flex-margin-top{
+    width: 680px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.flex-margin-top p{
+    width: auto;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.workflow{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.workflow div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 280px;
+}
+
+.workflow div img{
+    width: 50px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.workflow div p{
+    margin-top: 20px;
+    width: auto;
+    margin: auto;
+    padding: 10px 0;
+}
+
+#companies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.companies-logo{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(200px, 1fr));
+    width: 100%;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+
+.companies-logo img{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 680px;
+    margin: auto;
+}
+
+.clipboard p{
+    width: auto;
+    margin: auto;
+    padding: 10px 0;
+}
+
+#companies form{
+    margin-top: 30px;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0;
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+i {
+    width: 15%;
+    align-self: flex-start;
+}
+
+.copy-right2 {
+    width: 60px;
+}
+
+.contacts-flex {
+    width: 60%;
+    display: flex;
+    align-self: flex-start;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #71717a;
+    font-weight: 600;
+    width: 25%;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+footer ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 0;
+    width: 150px;
+}
+
+.icons{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative !important;
+}
+
+.icons img{
+    width: 100%;
+    transition: all linear .3s;
+}
+
+.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.icons:hover img {
+    opacity: 0;
+    cursor: pointer;
+}
+
+@media(max-width: 1220px) {
+    .main-section-image .computer-image picture {
+        width: 80%;
+        position: unset;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 120px;
+    }
+     .computer-image-info {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        height: 450px;
+        margin: auto 0;
+        width: 100%;
+    }
+     .computer-description {
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 25%;
+        text-align: center;
+    }
+     .computer-description h3 {
+        margin-bottom: 15px;
+    }
+    .computer-image-info p {
+        width: auto;
+    }
+}
+
+@media(max-width: 935px) {
+    .main-section .main-section-image {
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 700px) {
+    body {
+        background-image: url(https://bit.ly/3yqjljj);
+    }
+    p {
+        font-size: 16px !important;
+    }
+    .header-section {
+        width: auto;
+        height: 550px;
+        padding: 30px;
+    }
+    .header-title {
+        height: 250px;
+    }
+    .head-image {
+        margin-bottom: 60px;
+    }
+    .header-section h1 {
+        font-size: 30px;
+    }
+    .main-section .main-section-image .computer-image img  {
+        width: 100%;
+        margin-bottom: 50px;
+        
+    }
+    .main-section .main-section-title   h2, p {
+        width: auto;
+        margin: auto;
+    }
+    .main-section  .flex-margin {
+        margin-top: 80px;
+    }
+    .main-section  .monitor img {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .main-section  .flex-margin-top {
+        height: 150px;
+    }
+    .main-section .workflows div h3 {
+        font-size: 25px;
+    }
+    .main-section .workflows div img {
+        margin-bottom: 50px;
+    }
+    .header-section form button {
+        width: 100%;
+        margin: 10px 0;
+    }
+    #companies .companies {
+        gap: 70px;
+    }
+    #companies .companies img {
+        width: 130px;
+    }
+    #companies .form button {
+        width: 100%;
+        margin: 10px 0;
+    }
+    footer ul {
+        width: auto;
+    }
+    footer ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-flex {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, (250px 1fr));
+        gap: 50px;
+        width: 100%;
+    }
+    i, .contacts-flex, .social-media {
+        align-self: center;
+    }
+    i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .copy-right2 {
+        width: 50px;
+    }
+    .contacts-flex {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    .social-media {
+        width: 180px;
+        margin: auto;
+    }
+    .smain-section .flex-margin, .flex-margin-top, .clipboard, .header-title {
+        width: auto;
+    }
+}
+
